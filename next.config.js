@@ -2,6 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    domains: [
+      "lens.infura-ipfs.io",
+      "statics-mumbai-lens-staging.s3.eu-west-1.amazonaws.com",
+      "avatar.tobi.sh",
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
